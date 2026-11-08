@@ -47,7 +47,7 @@ Bonus là điểm cộng cho **chất lượng bài lab**, không phải điểm
 
 - Điểm chính tối đa 100. Bonus không tự cộng vào điểm chính và tối đa 10.
 - Chấm theo commit cuối cùng trước deadline (hoặc trước hạn gia hạn, nếu được gia hạn). Commit sau mốc này không được chấm; không có mức trừ điểm nộp muộn.
-- **Sai tên repo hoặc sai tên file báo cáo**: trừ 5 điểm. Repo theo mẫu `K5-L3-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming`; file báo cáo theo mẫu `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md`. Giữ nguyên tên `MSSV_HoTen.md` (chưa đổi) cũng tính là sai.
+- **Sai tên repo hoặc sai tên file báo cáo**: trừ 5 điểm. Repo theo mẫu `K5-<L3A hoặc L3B>-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming`; file báo cáo theo mẫu `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md`. Giữ nguyên tên `MSSV_HoTen.md` (chưa đổi) cũng tính là sai.
 - **Thiếu phần nhóm trong repo cá nhân** (không copy `group_report.md` hoặc `TEAM.md`): phần nhóm của người đó bị 0.
 - **Không có đóng góp trong `TEAM.md`** hoặc các thành viên khác xác nhận không tham gia: phần nhóm của người đó bị 0.
 - **Bịa kết quả phỏng vấn/survey**: C7 bị 0 cho cả nhóm.

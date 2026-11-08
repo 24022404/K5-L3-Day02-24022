@@ -27,7 +27,7 @@ Sau buổi này, bạn làm được:
 
 | Mục | Nội dung |
 |---|---|
-| Khóa / level | K5 · Level 3 (dùng chung, không chia lớp A/B) |
+| Khóa / level | K5 · Level 3, lớp **L3A** hoặc **L3B** (cùng một đề, khác nhau ở tên repo nộp bài) |
 | Ngày học | Day 02 |
 | Thời lượng | 4 tiếng (240 phút, gồm 2 lần nghỉ 10 phút) |
 | Nhóm | 3–4 người |
@@ -37,14 +37,18 @@ Sau buổi này, bạn làm được:
 
 ## Bắt đầu
 
-1. Bấm **Fork** để tạo repo cá nhân, đặt tên theo cú pháp:
+1. Bấm **Fork** (góc trên bên phải repo này). Ở trang *Create a new fork*, chọn tài khoản GitHub cá nhân làm **Owner** và sửa ô **Repository name** theo cú pháp:
 
    ```text
    K5-<L3A hoặc L3B>-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming
    ```
 
-   Ví dụ: `K5-L3A-DAY02-NguyenVanAn-20241234-DiscoveryProblemFraming`. hoặc 
-   `K5-L3B-DAY02-NguyenVanAn-20241234-DiscoveryProblemFraming`
+   Ví dụ: `K5-L3A-DAY02-NguyenVanAn-20241234-DiscoveryProblemFraming` (lớp L3A) hoặc `K5-L3B-DAY02-NguyenVanAn-20241234-DiscoveryProblemFraming` (lớp L3B).
+
+   Lưu ý khi fork:
+   - Nếu lỡ để tên mặc định, vào **Settings → General → Repository name** trong repo fork để đổi tên.
+   - Làm bài và commit trên repo fork của bạn. **Không tạo Pull Request về repo gốc**: bài nộp là link repo fork trên LMS.
+   - Repo fork có cùng chế độ public/private với repo gốc và không tự đổi được. Xem cách nộp trong [SUBMISSION.md](SUBMISSION.md).
 
 2. Đổi tên file báo cáo cá nhân `report/individual/MSSV_HoTen.md` thành MSSV và tên của bạn, ví dụ `report/individual/20241234_NguyenVanAn.md`.
 3. Đọc tài liệu theo thứ tự dưới đây, rồi làm lần lượt từ CP0 đến CP7.
@@ -81,7 +85,7 @@ Lab giữ nguyên một số thuật ngữ tiếng Anh vì đây là từ các t
 ## Cấu trúc repo
 
 ```text
-K5-L3-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming/
+K5-<L3A hoặc L3B>-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming/
 ├── README.md
 ├── RULES.md
 ├── CHECKPOINTS.md

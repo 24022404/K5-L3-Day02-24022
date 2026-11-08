@@ -77,7 +77,7 @@ flowchart LR
 
 ## Nơi nộp
 
-Nộp **link repo GitHub** của bạn trên LMS, mục bài nộp Day 02. Repo để chế độ **public**, hoặc private và thêm coach làm collaborator theo hướng dẫn trên LMS.
+Nộp **link repo fork** của bạn trên LMS, mục bài nộp Day 02. Không tạo Pull Request về repo gốc. Repo fork có cùng chế độ public/private với repo gốc; nếu fork là private, thêm coach làm collaborator theo hướng dẫn trên LMS để coach chấm được.
 
 ## Deadline (GMT+7)
 
@@ -88,7 +88,7 @@ Nộp **link repo GitHub** của bạn trên LMS, mục bài nộp Day 02. Repo 
 
 ## Checklist trước khi nộp
 
-- [ ] Tên repo đúng mẫu `K5-L3-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming`.
+- [ ] Repo là fork từ repo đề bài và tên đúng mẫu `K5-<L3A hoặc L3B>-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming` (đúng lớp L3A hoặc L3B của bạn).
 - [ ] Đã đổi tên báo cáo cá nhân từ `MSSV_HoTen.md` thành MSSV và họ tên của bạn (ví dụ `report/individual/20241234_NguyenVanAn.md`) và điền đủ mục 1–6.
 - [ ] Bảng scan có ít nhất 5 problem dạng Job Story (CP1).
 - [ ] Có 3 Problem Card và 3 quy trình nháp (CP2).
