@@ -18,7 +18,7 @@
 | CP1 Scan | Có, **sau khi** tự scan trước | Hỏi thêm góc nhìn, rồi tự chọn ý nào là pain thật |
 | CP2 Problem Card | Có | Dùng AI để phản biện. Không để AI bịa problem thay mình |
 | CP3 Pitch + challenge | **Không** | Tự trình bày và tự đặt câu hỏi phản biện |
-| CP4 Phỏng vấn | **Không** | Người thật hỏi người thật. Không dùng AI đóng vai người dùng thay cho phỏng vấn. Được phỏng vấn bạn học ở nhóm khác nếu họ thật sự gặp vấn đề đó, không phỏng vấn thành viên nhóm mình |
+| CP4 Phỏng vấn | **Không** | Người thật hỏi người thật. Không dùng AI đóng vai người dùng thay cho phỏng vấn. Được phỏng vấn bạn học ở nhóm khác nếu họ thật sự gặp vấn đề đó, không phỏng vấn thành viên nhóm mình. Cố gắng thu thập dữ liệu thật thay vì hỏi AI, có nguồn trích dẫn chính xác. |
 | CP4 Research | Có | Mọi claim quan trọng phải có link đã tự mở và kiểm. Số liệu không kiểm được nguồn thì không dùng |
 | CP5 Quy trình | Có | Có thể nhờ AI chuyển mô tả sang Mermaid, nhưng phải tự kiểm từng bước |
 | CP5–CP6 Problem Statement, quyết định | Có, chỉ để phản biện | Prompt kiểu "chỉ ra lỗ hổng, đừng viết lại thay tôi". Nhóm tự chốt |

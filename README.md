@@ -37,13 +37,14 @@ Sau buổi này, bạn làm được:
 
 ## Bắt đầu
 
-1. Bấm **Use this template** để tạo repo cá nhân, đặt tên:
+1. Bấm **Fork** để tạo repo cá nhân, đặt tên theo cú pháp:
 
    ```text
-   K5-L3-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming
+   K5-<L3A hoặc L3B>-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming
    ```
 
-   Ví dụ: `K5-L3-DAY02-NguyenVanAn-20241234-DiscoveryProblemFraming`.
+   Ví dụ: `K5-L3A-DAY02-NguyenVanAn-20241234-DiscoveryProblemFraming`. hoặc 
+   `K5-L3B-DAY02-NguyenVanAn-20241234-DiscoveryProblemFraming`
 
 2. Đổi tên file báo cáo cá nhân `report/individual/MSSV_HoTen.md` thành MSSV và tên của bạn, ví dụ `report/individual/20241234_NguyenVanAn.md`.
 3. Đọc tài liệu theo thứ tự dưới đây, rồi làm lần lượt từ CP0 đến CP7.

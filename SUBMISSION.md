@@ -17,17 +17,17 @@ K5-L3-DiscoveryProblemFraming
 ### Repo bài nộp (mỗi học viên một repo)
 
 ```text
-K5-L3-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming
+K5-<L3A hoặc L3B>-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming
 ```
 
-Ví dụ: `K5-L3-DAY02-NguyenVanAn-20241234-DiscoveryProblemFraming`.
+Ví dụ: `K5-L3A-DAY02-NguyenVanAn-20241234-DiscoveryProblemFraming`.
 
 Quy tắc: viết không dấu, không khoảng trắng, các phần ngăn cách bằng dấu `-`, ngày học dùng hai chữ số (`DAY02`).
 
 ## Cấu trúc và file phải nộp
 
 ```text
-K5-L3-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming/
+K5-<L3A hoặc L3B>-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming/
 ├── README.md, RULES.md, CHECKPOINTS.md, RUBRIC.md, SUBMISSION.md   ← giữ nguyên
 ├── TEAM.md                                  ← BẮT BUỘC: bản chung của nhóm
 ├── report/
