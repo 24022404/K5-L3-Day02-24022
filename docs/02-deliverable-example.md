@@ -1,12 +1,12 @@
 # Bài làm mẫu — Báo cáo tuần của Product Manager
 
-> Đây là ví dụ một bài nộp hoàn chỉnh. **Không copy nội dung**, hãy học cách đi: scan → Problem Card → hội tụ → kiểm chứng → workflow → Problem Statement → mức can thiệp AI → quyết định.
+> Đây là ví dụ một bài nộp hoàn chỉnh. **Không copy nội dung**, hãy học cách đi: scan → Problem Card → hội tụ → kiểm chứng → quy trình → Problem Statement → mức can thiệp AI → quyết định.
 >
 > Nhân vật và công ty trong ví dụ là hư cấu. Thông tin về công cụ trong bảng research được kiểm tại thời điểm viết (11/2026); khi bạn làm bài, hãy tự kiểm lại.
 
 **Nhân vật:** Minh, Junior Product Manager ở một công ty SaaS khoảng 50 người, dùng Jira, Google Sheets và Slack gói Pro. Mỗi sáng thứ Hai, Minh tổng hợp số liệu từ ba công cụ này để viết báo cáo tuần cho Engineering Manager (EM) và CEO.
 
-**Vì sao đây là ví dụ tốt:** actor cụ thể; workflow lặp lại hằng tuần; bottleneck rõ; có baseline thời gian; so sánh được No AI / Rule / Workflow / Agent; và quan trọng nhất, **research làm nhóm đổi kết luận**.
+**Vì sao đây là ví dụ tốt:** actor cụ thể; quy trình lặp lại hằng tuần; bottleneck rõ; có baseline thời gian; so sánh được No AI / Rule / Workflow / Agent; và quan trọng nhất, **research làm nhóm đổi kết luận**.
 
 ---
 
@@ -22,20 +22,20 @@ Minh scan 10 problem, vượt mức tối thiểu 5.
 | 2 | Lặp lại | Khi cập nhật slide cho buổi họp tháng, tôi muốn có sẵn velocity các sprint, để không phải copy tay từ Jira | PM | Mỗi tháng 1 lần, khoảng 20 phút |
 | 3 | Tốn thời gian | Khi nhận một PRD 10–15 trang cần review, tôi muốn nắm nhanh các quyết định chính, để comment đúng chỗ trước hạn | PM reviewer, design lead | Khoảng 45 phút/bản, 2 bản/tuần |
 | 4 | Tốn thời gian | Khi vừa xong một cuộc họp liên team, tôi muốn có danh sách việc cần làm và người phụ trách, để không ai bỏ sót | PM, team | 30 phút/buổi viết lại ghi chú |
-| 5 | AI có thể làm tốt hơn | Khi có quá nhiều task cùng hạn, tôi muốn biết nên làm việc nào trước, để không trễ việc quan trọng | PM, team | Tuần trước trễ 2 task vì ưu tiên sai |
-| 6 | AI có thể làm tốt hơn | Khi cần biết vì sao team từng chọn phương án A, tôi muốn tìm lại được quyết định cũ, để không tranh luận lại từ đầu | Cả team | 10–15 phút mỗi lần tìm trong Slack, 3–4 lần/tuần |
+| 5 | Cần đọc, tổng hợp nhiều thông tin | Khi có quá nhiều task cùng hạn, tôi muốn biết nên làm việc nào trước, để không trễ việc quan trọng | PM, team | Tuần trước trễ 2 task vì ưu tiên sai |
+| 6 | Cần đọc, tổng hợp nhiều thông tin | Khi cần biết vì sao team từng chọn phương án A, tôi muốn tìm lại được quyết định cũ, để không tranh luận lại từ đầu | Cả team | 10–15 phút mỗi lần tìm trong Slack, 3–4 lần/tuần |
 | 7 | Pain từ người khác | Khi designer nhận spec từ tôi, họ muốn hiểu đúng yêu cầu ngay lần đầu, để không phải hỏi lại | Designer, PM | Designer hỏi lại 2–3 lần/spec (đếm từ thread Slack) |
 | 8 | Pain từ người khác | Khi CEO cần chuẩn bị họp leadership sáng thứ Hai, CEO muốn có báo cáo trước giờ họp, để nắm tình hình | CEO, PM | 3/8 tuần gần nhất báo cáo gửi trễ |
 | 9 | Tốn thời gian | Khi cuối tháng, tôi muốn có KPI từ nhiều dashboard trong một bảng, để báo cáo tháng | PM, manager | Mỗi tháng khoảng 2 tiếng |
 | 10 | Lặp lại | Khi tới giờ standup, tôi muốn có sẵn update hôm qua, để không phải nhớ lại | PM | 5–10 phút/ngày |
 
-**AI gợi ý thêm:** sau khi tự scan 8 ý, Minh hỏi AI và giữ lại ý #9 và #10. Bỏ ý "trợ lý AI quản lý toàn bộ dự án" vì quá rộng và không có workflow thật.
+**AI gợi ý thêm:** sau khi tự scan 8 ý, Minh hỏi AI và giữ lại ý #9 và #10. Bỏ ý "trợ lý AI quản lý toàn bộ dự án" vì quá rộng và không có quy trình thật.
 
 ## 3. Top 3 Problem Cards (CP2)
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | Báo cáo tuần (#1) | Workflow rõ, tốn thời gian, có baseline đo thật | Narrative "đủ tốt" đo thế nào? |
+| 1 | Báo cáo tuần (#1) | Quy trình rõ, tốn thời gian, có baseline đo thật | Narrative "đủ tốt" đo thế nào? |
 | 2 | Review PRD (#3) | Pain thật, nhiều người gặp | Chất lượng review khó đo |
 | 3 | Tìm quyết định cũ (#6) | Nhiều người đau, impact rộng | Quyền truy cập dữ liệu khó, phạm vi dễ quá rộng |
 
@@ -46,7 +46,7 @@ Minh scan 10 problem, vượt mức tối thiểu 5.
 | Job Story | Khi tới sáng thứ Hai, tôi muốn có số liệu sprint và tình hình team ở một chỗ, để gửi báo cáo tuần cho CEO trước 10h |
 | Actor | Junior PM phụ trách báo cáo tuần cho EM và CEO |
 | Thời điểm / bối cảnh | Sáng thứ Hai, trước buổi họp leadership lúc 10h |
-| Workflow hiện tại | 1. Export dữ liệu sprint từ Jira · 2. Lấy số từ Google Sheets · 3. Đọc lại Slack cả tuần · 4. Tổng hợp vào Google Docs · 5. Viết narrative (điểm nổi bật, rủi ro, việc tiếp theo) · 6. Tự review và format · 7. Gửi email |
+| Quy trình hiện tại | 1. Export dữ liệu sprint từ Jira · 2. Lấy số từ Google Sheets · 3. Đọc lại Slack cả tuần · 4. Tổng hợp vào Google Docs · 5. Viết narrative (điểm nổi bật, rủi ro, việc tiếp theo) · 6. Tự review và format · 7. Gửi email |
 | Bottleneck | Bước 5, viết narrative: khoảng 25 phút, hay bị "trang trắng" |
 | Impact | 90 phút/tuần cho 1 PM; công ty có 3 PM nên khoảng 270 phút/tuần; 3/8 tuần gần nhất gửi trễ |
 | Success metric | Tổng thời gian từ 90 phút xuống dưới 30 phút, số câu hỏi lại từ CEO/EM không tăng |
@@ -107,7 +107,7 @@ OUTCOME: Giảm thời gian PM dành cho báo cáo định kỳ mà leadership v
 
 ### Chấm điểm shortlist
 
-| Candidate | Actor rõ | Workflow rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được 4 mức | Nhóm hiểu domain | Tổng |
+| Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được 4 mức | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Báo cáo tuần | 5 | 5 | 4 | 5 | 5 | 5 | 5 | **34** |
 | Review PRD | 4 | 5 | 3 | 3 | 5 | 4 | 4 | 28 |
@@ -115,7 +115,7 @@ OUTCOME: Giảm thời gian PM dành cho báo cáo định kỳ mà leadership v
 
 **Chọn:** Báo cáo tuần.
 
-**Vì sao loại hai candidate kia:** Tìm quyết định cũ có impact rộng nhưng cần quyền đọc toàn bộ Slack và dễ trượt thành dự án tìm kiếm quá lớn. Review PRD có workflow rõ nhưng nhóm không thống nhất được cách đo chất lượng review trong thời gian lab.
+**Vì sao loại hai candidate kia:** Tìm quyết định cũ có impact rộng nhưng cần quyền đọc toàn bộ Slack và dễ trượt thành dự án tìm kiếm quá lớn. Review PRD có quy trình rõ nhưng nhóm không thống nhất được cách đo chất lượng review trong thời gian lab.
 
 **Bất đồng:** Lan muốn chọn "Tìm quyết định cũ" vì impact rộng hơn. Nhóm thống nhất ghi nó vào mục "hướng tiếp theo" và chọn bài có baseline đo được ngay.
 
@@ -167,13 +167,13 @@ Tổng hợp:
 **Kết luận research:**
 
 ```text
-Phần lớn workflow đã có công cụ làm được. Không có lý do tự xây agent.
+Phần lớn quy trình đã có công cụ làm được. Không có lý do tự xây agent.
 Hướng hợp lý: Rule lấy số liệu → AI soạn nháp narrative (Rovo hoặc prompt chuẩn) → PM duyệt → PM gửi.
 ```
 
 Đây là điểm khác lớn nhất so với bản nháp ban đầu của Minh: ban đầu Minh định "xây một công cụ AI viết báo cáo".
 
-## 4. Workflow trước/sau (CP5)
+## 4. Quy trình trước/sau (CP5)
 
 ```text
 HIỆN TẠI — 7 bước, 90 phút, 7/7 bước thủ công
@@ -207,7 +207,7 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 | Trường | Nội dung |
 |---|---|
 | **Actor** | Junior PM phụ trách báo cáo tuần cho leadership |
-| **Workflow** | Mỗi sáng thứ Hai: export Jira, lấy số Sheets, đọc Slack, tổng hợp Docs, viết narrative, review, gửi email |
+| **Quy trình** | Mỗi sáng thứ Hai: export Jira, lấy số Sheets, đọc Slack, tổng hợp Docs, viết narrative, review, gửi email |
 | **Bottleneck** | Viết narrative mất khoảng 25 phút vì phải biến dữ liệu thô thành điểm nổi bật, rủi ro, việc tiếp theo |
 | **Impact** | 90 phút/tuần/PM; 3/8 tuần gần nhất gửi trễ; leadership thiếu bối cảnh trước họp |
 | **Success Metric** | Tổng thời gian từ 90' (bấm giờ 2 tuần) xuống dưới 30', đo bằng PM tự ghi giờ 4 tuần pilot |
@@ -226,7 +226,7 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 | **Workflow** | Rule lấy số → AI soạn nháp → PM duyệt → gửi | Các bước cố định, AI chỉ làm phần ngôn ngữ | Nháp sai hoặc nhạt | **Chọn** |
 | **Agent** | AI tự tìm nguồn, tự phân tích, tự hỏi thêm, tự gửi | Khi bước tiếp theo không đoán trước được | Quá rộng, nhiều quyền truy cập, khó kiểm soát | Không chọn |
 
-**Vì sao không chọn mức đơn giản hơn:** template + dashboard (Rule) đã được thử trong phỏng vấn: 2/3 người vẫn mất nhiều thời gian ở phần narrative, đúng phần Rule không làm được.
+**Vì sao không chọn mức đơn giản hơn:** No AI (template) và Rule (dashboard tự lấy số) đã được kiểm chứng qua phỏng vấn: 2/3 người vẫn mất nhiều thời gian nhất ở phần narrative, đúng phần mà cả hai phương án này không làm được.
 
 **AI Canvas rút gọn:**
 
@@ -241,7 +241,7 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 
 **Câu hỏi PAIR:**
 
-- **Augment hay automate?** Augment. Cả 3 người được phỏng vấn đều muốn "có bản nháp để sửa", không ai muốn báo cáo tự gửi đi.
+- **Augment hay automate?** Augment. 2 người cần phần narrative đều muốn "có bản nháp để sửa"; người còn lại chỉ cần dashboard số. Không ai muốn báo cáo tự gửi đi.
 - **Sai kiểu nào tệ hơn?** Bỏ sót rủi ro tệ hơn báo nhầm: CEO không biết blocker thì quyết định sai. Vì vậy tiêu chí đánh giá ưu tiên "không bỏ sót blocker có trong dữ liệu".
 
 ## 7. Problem Statement v1 + tiêu chí đánh giá (CP6)
@@ -249,7 +249,7 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 | Trường | Nội dung |
 |---|---|
 | **Actor** | Junior PM phụ trách báo cáo tuần cho leadership, ở team mà leadership đọc phần narrative |
-| **Workflow** | Lấy số Jira + Sheets → đọc Slack → viết narrative → review → gửi |
+| **Quy trình** | Lấy số Jira + Sheets → đọc Slack → viết narrative → review → gửi |
 | **Bottleneck** | Viết narrative mất khoảng 25 phút |
 | **Impact** | 90 phút/tuần/PM; 3/8 tuần gửi trễ |
 | **Success Metric** | (1) Thời gian từ 90' xuống dưới 30'; (2) PM phải viết lại dưới 50% bản nháp; (3) số câu CEO/EM hỏi lại không tăng so với 4 tuần trước pilot |
@@ -274,7 +274,7 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 
 ## 8. Quyết định (CP6)
 
-| Rủi ro | Mức | Lý do / bằng chứng |
+| Rủi ro | Mức độ rủi ro (Thấp = an toàn) | Lý do / bằng chứng |
 |---|---|---|
 | **Value** | Trung bình | 2/3 phỏng vấn và 4/6 poll xác nhận pain; nhưng giả định "leadership đọc narrative" mới chỉ có 1 nguồn |
 | **Usability** | Thấp | PM chỉ cần sửa văn bản, không phải học công cụ mới |
@@ -314,16 +314,16 @@ PHƯƠNG ÁN QUAY VỀ: nháp kém hoặc sai số → PM bỏ nháp, viết the
 | Phản biện bài bạn khác | Hỏi Lan: "Bạn có quyền đọc toàn bộ Slack của công ty không?" | Nhóm thấy bài "Tìm quyết định cũ" có rủi ro Feasibility cao |
 | Nhận phản biện | Huy hỏi: "Template thôi có đủ không?" | Tôi thêm phương án No AI và đưa vào phỏng vấn để kiểm |
 | Kiểm chứng / research | Phỏng vấn 1 PO; tìm Rovo và template n8n | Nhóm đổi từ "tự xây" sang "dùng công cụ có sẵn" |
-| Workflow nhóm | Vẽ workflow hiện tại và tương lai | Nhóm dùng làm bản cuối |
+| Quy trình nhóm | Vẽ quy trình hiện tại và tương lai | Nhóm dùng làm bản cuối |
 
 ## 5. Dùng AI
 
 | Checkpoint | Dùng AI để làm gì? | Hữu ích ở đâu? | Sai/hời hợt ở đâu? | Tôi sửa gì |
 |---|---|---|---|---|
-| CP1 Scan | Gợi ý thêm problem theo vai trò PM | Nhớ ra #9, #10 | Một ý quá rộng ("trợ lý quản lý dự án") | Bỏ ý không có workflow thật |
+| CP1 Scan | Gợi ý thêm problem theo vai trò PM | Nhớ ra #9, #10 | Một ý quá rộng ("trợ lý quản lý dự án") | Bỏ ý không có quy trình thật |
 | CP2 Card | Đóng vai PM hoài nghi | Chỉ ra baseline chỉ dựa trí nhớ | Gợi ý agent tự gửi báo cáo | Giữ boundary PM duyệt |
 | CP4 Research | Tìm công cụ tương tự | Gợi ý Rovo, n8n, Slack AI | Đưa 1 link Google Help đã đổi địa chỉ; nói Slack AI có sẵn ở mọi gói | Tự mở từng link; kiểm trang giá Slack: gói Pro chỉ có tóm tắt cơ bản |
-| CP5 Workflow | Chuyển mô tả sang Mermaid | Nhanh | Gộp "viết narrative" và "review" thành 1 bước | Tách lại vì bottleneck nằm ở narrative |
+| CP5 Quy trình | Chuyển mô tả sang Mermaid | Nhanh | Gộp "viết narrative" và "review" thành 1 bước | Tách lại vì bottleneck nằm ở narrative |
 
 ## 6. Reflection (trích)
 

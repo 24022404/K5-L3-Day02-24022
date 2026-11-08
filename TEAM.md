@@ -10,14 +10,16 @@
 
 ## Thành viên
 
-| STT | Họ và tên | MSSV | Email | Vai trò trong nhóm | Repo cá nhân |
-|---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
+| STT | Họ và tên | MSSV | Vai trò trong nhóm | Repo cá nhân |
+|---:|---|---|---|---|
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
 
-Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối thời gian, ghi chép, người phản biện chính, phụ trách kiểm chứng (phỏng vấn/survey), phụ trách research, vẽ workflow, viết Problem Statement.
+Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
+
+Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối thời gian, ghi chép, người phản biện chính, phụ trách kiểm chứng (phỏng vấn/survey), phụ trách research, vẽ quy trình, viết Problem Statement.
 
 ## Phân công theo checkpoint
 
@@ -26,9 +28,9 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
 | CP4 — Research | | | Bảng research có link |
-| CP5 — Workflow trước/sau | | | Workflow + bảng before/after |
-| CP5 — Problem Statement v0 | | | PS v0 |
-| CP6 — Mức can thiệp + PS v1 | | | Ma trận, AI Canvas, eval, PS v1 |
+| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | | | Problem Statement v0 |
+| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
 | CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân

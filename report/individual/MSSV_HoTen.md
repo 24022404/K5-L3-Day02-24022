@@ -1,13 +1,13 @@
-# Báo cáo cá nhân — HoVaTen-MSSV
+# Báo cáo cá nhân — MSSV_HoTen
 
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md`.
+> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
 
 ## 1. Thông tin học viên
 
 - Họ tên:
 - MSSV:
-- Email:
+- Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm:
 - Link repository:
 
@@ -15,7 +15,7 @@
 
 ## 2. Scan problem (CP1)
 
-Lăng kính: **Lặp lại** · **Tốn thời gian** · **AI có thể làm tốt hơn** · **Pain từ người khác**.
+Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng hợp nhiều thông tin** · **Pain từ người khác**.
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
@@ -34,7 +34,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **AI có thể làm t�
 
 ---
 
-## 3. Top 3 Problem Cards + draft workflow (CP2)
+## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
 ### Bảng chọn top 3
 
@@ -51,7 +51,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **AI có thể làm t�
 | Job Story | Khi …, tôi muốn …, để … |
 | Actor | |
 | Thời điểm / bối cảnh | |
-| Workflow hiện tại (3–7 bước) | |
+| Quy trình hiện tại (3–7 bước) | |
 | Bottleneck (bước nào, mất bao nhiêu phút) | |
 | Impact (nếu không giải thì sao) | |
 | Success metric (baseline → target) | |
@@ -59,7 +59,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **AI có thể làm t�
 | Giả thuyết về AI (nếu có) | |
 | Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
 
-Draft workflow hiện tại:
+Quy trình nháp hiện tại:
 
 ```text
 
@@ -72,7 +72,7 @@ Draft workflow hiện tại:
 | Job Story | Khi …, tôi muốn …, để … |
 | Actor | |
 | Thời điểm / bối cảnh | |
-| Workflow hiện tại (3–7 bước) | |
+| Quy trình hiện tại (3–7 bước) | |
 | Bottleneck (bước nào, mất bao nhiêu phút) | |
 | Impact (nếu không giải thì sao) | |
 | Success metric (baseline → target) | |
@@ -80,7 +80,7 @@ Draft workflow hiện tại:
 | Giả thuyết về AI (nếu có) | |
 | Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
 
-Draft workflow hiện tại:
+Quy trình nháp hiện tại:
 
 ```text
 
@@ -93,7 +93,7 @@ Draft workflow hiện tại:
 | Job Story | Khi …, tôi muốn …, để … |
 | Actor | |
 | Thời điểm / bối cảnh | |
-| Workflow hiện tại (3–7 bước) | |
+| Quy trình hiện tại (3–7 bước) | |
 | Bottleneck (bước nào, mất bao nhiêu phút) | |
 | Impact (nếu không giải thì sao) | |
 | Success metric (baseline → target) | |
@@ -101,7 +101,7 @@ Draft workflow hiện tại:
 | Giả thuyết về AI (nếu có) | |
 | Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
 
-Draft workflow hiện tại:
+Quy trình nháp hiện tại:
 
 ```text
 
@@ -131,7 +131,7 @@ Draft workflow hiện tại:
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
 | Kiểm chứng / research | | |
-| Workflow nhóm | | |
+| Quy trình nhóm | | |
 | Problem Statement | | |
 | Mức can thiệp AI | | |
 | Quyết định | | |
@@ -145,7 +145,7 @@ Draft workflow hiện tại:
 | CP1 Scan | | | | |
 | CP2 Problem Card | | | | |
 | CP4 Research | | | | |
-| CP5 Workflow | | | | |
+| CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
 | CP6 Mức can thiệp / quyết định | | | | |
 
@@ -153,7 +153,7 @@ Draft workflow hiện tại:
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho cả mục. **Không dùng AI để viết thay.**
+Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
@@ -167,7 +167,7 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → workflow → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
 ---
 

@@ -35,7 +35,7 @@ K5-L3-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming/
 │   │   └── 20241234_NguyenVanAn.md          ← BẮT BUỘC: báo cáo cá nhân (đã đổi tên)
 │   ├── team/
 │   │   └── group_report.md                  ← BẮT BUỘC: bản chung của nhóm
-│   └── assets/                              ← ảnh workflow, Mermaid, ảnh survey, snapshot
+│   └── assets/                              ← ảnh quy trình, Mermaid, ảnh survey, snapshot
 ├── docs/                                    ← giữ nguyên
 └── src/                                     ← giữ nguyên (lab không có code)
 ```
@@ -43,6 +43,9 @@ K5-L3-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming/
 ### Phần cá nhân
 
 - Đổi tên `report/individual/MSSV_HoTen.md` thành MSSV và họ tên không dấu, ví dụ `report/individual/20241234_NguyenVanAn.md`.
+  - **Đúng:** `20241234_NguyenVanAn.md` (MSSV trước, dấu gạch dưới `_`, họ tên viết liền không dấu).
+  - **Sai:** `MSSV_HoTen.md` (chưa đổi tên), `NguyenVanAn_20241234.md` (đảo thứ tự), `20241234-NguyenVanAn.md` (sai dấu nối).
+  - Lưu ý: **tên repo** thì ngược lại, họ tên trước, MSSV sau, nối bằng `-`. Hai quy tắc này theo quy định đặt tên chung của chương trình.
 - Điền đủ các mục 1–6 trong file đó.
 
 ### Phần nhóm
@@ -58,11 +61,19 @@ K5-L3-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming/
 ```text
 report/assets/cp2-workflow-card-1.png
 report/assets/cp4-interview-snapshot-1.md
-report/assets/cp5-workflow-current.mmd
 report/assets/cp5-workflow-future.png
 ```
 
-Dẫn link tới các file này từ báo cáo, ví dụ `![Workflow hiện tại](../assets/cp5-workflow-current.png)`.
+Dẫn link ảnh từ báo cáo, ví dụ `![Quy trình tương lai](../assets/cp5-workflow-future.png)`.
+
+**Sơ đồ Mermaid:** viết thẳng một khối code có nhãn `mermaid` trong báo cáo, GitHub sẽ tự hiển thị thành sơ đồ. Không lưu thành file `.mmd` rồi chèn bằng cú pháp ảnh `![](...)`, vì GitHub không hiển thị được kiểu đó.
+
+````text
+```mermaid
+flowchart LR
+  A[Export Jira] --> B[Viết narrative] --> C[Gửi email]
+```
+````
 
 ## Nơi nộp
 
@@ -73,14 +84,14 @@ Nộp **link repo GitHub** của bạn trên LMS, mục bài nộp Day 02. Repo 
 - Lab **sáng**: nộp trước **23h59 GMT+7** ngày lab.
 - Lab **chiều/tối**: nộp trước **11h59 GMT+7** ngày hôm sau.
 - Key coach có thể gia hạn tối đa 48 giờ nếu có lý do chính đáng. Thông báo gia hạn đăng trên LMS.
-- Commit sau deadline không được chấm.
+- Commit sau deadline (hoặc sau hạn gia hạn, nếu được gia hạn) không được chấm. Không có hình thức "nộp muộn bị trừ điểm".
 
 ## Checklist trước khi nộp
 
 - [ ] Tên repo đúng mẫu `K5-L3-DAY02-HoVaTen-MSSV-DiscoveryProblemFraming`.
-- [ ] Đã đổi tên báo cáo cá nhân thành `report/individual/MSSV_HoTen.md` và điền đủ mục 1–6.
+- [ ] Đã đổi tên báo cáo cá nhân từ `MSSV_HoTen.md` thành MSSV và họ tên của bạn (ví dụ `report/individual/20241234_NguyenVanAn.md`) và điền đủ mục 1–6.
 - [ ] Bảng scan có ít nhất 5 problem dạng Job Story (CP1).
-- [ ] Có 3 Problem Card và 3 draft workflow (CP2).
+- [ ] Có 3 Problem Card và 3 quy trình nháp (CP2).
 - [ ] Đã copy bản cuối `report/team/group_report.md` và `TEAM.md` của nhóm vào repo.
 - [ ] Phần của bạn trong `TEAM.md` đã điền.
 - [ ] Mọi ảnh và file phụ nằm trong `report/assets/` và hiển thị được khi mở báo cáo trên GitHub.

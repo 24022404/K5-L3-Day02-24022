@@ -1,6 +1,6 @@
 # Assets
 
-Đặt ảnh workflow, file Mermaid, ảnh chụp survey, interview snapshot và ghi chú research ở đây.
+Đặt ảnh quy trình, file Mermaid, ảnh chụp survey, interview snapshot và ghi chú research ở đây.
 
 Tên file bắt đầu bằng số checkpoint:
 
@@ -8,7 +8,6 @@ Tên file bắt đầu bằng số checkpoint:
 cp2-workflow-card-1.png
 cp4-interview-snapshot-1.md
 cp4-survey-result.png
-cp5-workflow-current.mmd
 cp5-workflow-future.png
 ```
 

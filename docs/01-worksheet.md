@@ -13,7 +13,7 @@ Mở [02-deliverable-example.md](02-deliverable-example.md). Khi đọc, chú ý
 - Cá nhân scan rộng thế nào, viết Job Story ra sao.
 - Top 3 Problem Card cụ thể đến mức nào.
 - Nhóm đi từ 12 candidate về 1 bằng cây OST và bảng chấm điểm.
-- Research giải pháp có sẵn làm nhóm **đổi kết luận** từ "tự xây" sang "dùng tool có sẵn + workflow bán thủ công".
+- Research giải pháp có sẵn làm nhóm **đổi kết luận** từ "tự xây" sang "dùng tool có sẵn + quy trình bán thủ công".
 - Problem Statement v0 khác v1 ở đâu.
 
 ---
@@ -30,7 +30,7 @@ Mở [02-deliverable-example.md](02-deliverable-example.md). Khi đọc, chú ý
 |---|---|---|
 | **Lặp lại** | Việc gì xuất hiện đều mỗi ngày/tuần/tháng? Người mới vào có phải hỏi lại cùng một quy trình không? | Báo cáo tuần, nhập liệu, trả lời câu hỏi lặp lại |
 | **Tốn thời gian** | Việc gì mỗi lần làm đều nặng? Thời gian mất ở đâu: tìm thông tin, đọc, tổng hợp, chờ người khác, format, sửa lại? | Đọc tài liệu dài, tìm quyết định cũ, review văn bản |
-| **AI có thể làm tốt hơn** | Việc gì cần hiểu ngữ cảnh, đọc/viết ngôn ngữ, phân loại, so sánh, tổng hợp? Nếu AI sai ở đó thì hậu quả là gì? | Tìm tài liệu, tóm tắt nhiều nguồn, phân loại ticket |
+| **Cần đọc, tổng hợp nhiều thông tin** | Việc gì cần hiểu ngữ cảnh, đọc/viết nhiều văn bản, phân loại, so sánh, tổng hợp từ nhiều nguồn? Mô tả cái khó, chưa nói cách giải (không viết "cần AI…") | Tìm tài liệu, tóm tắt nhiều nguồn, phân loại ticket |
 | **Pain từ người khác** | Ai ngoài bạn đang kẹt hoặc than phiền lặp lại? Có dấu hiệu thật không: ticket, tin nhắn, comment, survey? | Hỏi lại deadline, không hiểu task, ticket lặp lại |
 
 Nếu bí, tự hỏi:
@@ -74,18 +74,18 @@ Tôi là [vai trò] trong [bối cảnh]. Công việc hằng tuần gồm: [...
 Tôi đã nghĩ ra các vấn đề sau:
 1. [...]
 2. [...]
-Hãy gợi ý thêm vấn đề theo 4 lăng kính: lặp lại, tốn thời gian, AI có thể làm tốt hơn, pain từ người khác.
+Hãy gợi ý thêm vấn đề theo 4 lăng kính: lặp lại, tốn thời gian, Cần đọc, tổng hợp nhiều thông tin, pain từ người khác.
 Viết mỗi gợi ý dạng "Khi..., tôi muốn..., để...", kèm actor và cách đo.
 Không đưa giải pháp. Không đưa ý quá rộng kiểu "trợ lý AI toàn năng".
 ```
 
 ---
 
-## CP2 — Top 3 Problem Cards + draft workflow (35') · *Discover*
+## CP2 — Top 3 Problem Cards + quy trình nháp (35') · *Discover*
 
 ### Chọn top 3
 
-Tiêu chí: actor rõ; workflow hiện tại vẽ được; bottleneck là một bước cụ thể; impact đo được hoặc ước lượng được; so sánh được No AI / Rule / Workflow / Agent; vừa sức một buổi lab.
+Tiêu chí: actor rõ; quy trình hiện tại vẽ được; bottleneck là một bước cụ thể; impact đo được hoặc ước lượng được; so sánh được No AI / Rule / Workflow / Agent; vừa sức một buổi lab.
 
 ### Bản pitch nhanh
 
@@ -96,7 +96,7 @@ Dùng dạng card này khi trình bày với nhóm. Bản nộp chi tiết dùng
 │ PROBLEM CARD #___                            │
 │ Khi ______, tôi muốn ______, để ______       │
 │ Ai chịu ảnh hưởng? ______________________    │
-│ Workflow: 1.____ → 2.____ → 3.____ → 4.____  │
+│ Quy trình: 1.____ → 2.____ → 3.____ → 4.____ │
 │ Bước nghẽn: ________ (___ phút/lần)          │
 │ Đo thành công: từ ___ phút xuống ___ phút    │
 │ Cảm nhận nhanh: □ No AI □ Rule □ Workflow    │
@@ -104,7 +104,7 @@ Dùng dạng card này khi trình bày với nhóm. Bản nộp chi tiết dùng
 └──────────────────────────────────────────────┘
 ```
 
-### Draft workflow
+### Quy trình nháp
 
 ASCII, Mermaid hay ảnh đều được, miễn đọc được và có số phút.
 
@@ -124,7 +124,7 @@ HIỆN TẠI — 90 phút/tuần
 
 Đóng vai một product manager hoài nghi và phản biện:
 1. Actor có đủ cụ thể không?
-2. Workflow có thật không, hay là workflow tôi tưởng tượng?
+2. Quy trình có thật không, hay là quy trình tôi tưởng tượng?
 3. Bottleneck có phải một bước cụ thể không?
 4. Metric có đo được không?
 5. Sửa quy trình hoặc dùng rule đã đủ chưa?
@@ -208,6 +208,8 @@ Chấm mỗi giả định theo 2 trục: **quan trọng** (1–5) và **đã c�
 
 **Lời khen không phải bằng chứng.** "Ý hay đấy, mình sẽ dùng!" không chứng minh gì. Bằng chứng là: họ đã mất thời gian thật, đã thử cách khác, đã tự làm workaround, hoặc đồng ý một bước tiếp theo cụ thể (cho xem file báo cáo thật, giới thiệu người khác).
 
+**Phỏng vấn ai?** Người thật sự gặp vấn đề. Bạn học ở nhóm khác cũng được nếu họ có trải nghiệm đó; không phỏng vấn thành viên nhóm mình. Nếu cần người ngoài lớp, có thể hẹn và phỏng vấn trước buổi học.
+
 **Interview Snapshot** *(Teresa Torres)*: ghi mỗi buổi phỏng vấn ngay sau khi xong, vào bảng snapshot trong báo cáo nhóm. Một câu nói nguyên văn đáng giá hơn một đoạn tóm tắt.
 
 Nếu làm survey (5–10 người), hỏi: có gặp không, tần suất, bước nào đau nhất, đang xử lý thế nào, mức độ đáng giải 1–5.
@@ -216,7 +218,7 @@ Nếu làm survey (5–10 người), hỏi: có gặp không, tần suất, bư�
 
 ### Bước 3 — Research giải pháp đã có (10')
 
-Tìm 2–3 công cụ, case hoặc pattern. Với mỗi cái, ghi: giải bước nào trong workflow, còn bỏ trống bước nào, bài học cho nhóm. Mục đích là **không nghĩ trong chân không**: nếu đã có tool làm 80%, quyết định đúng thường là dùng tool đó.
+Tìm 2–3 công cụ, case hoặc pattern. Với mỗi cái, ghi: giải bước nào trong quy trình, còn bỏ trống bước nào, bài học cho nhóm. Mục đích là **không nghĩ trong chân không**: nếu đã có tool làm 80%, quyết định đúng thường là dùng tool đó.
 
 Prompt research:
 
@@ -224,7 +226,7 @@ Prompt research:
 Nhóm tôi đang phân tích bài toán: [mô tả ngắn, dạng Job Story]
 Tìm giúp:
 1. 2–3 công cụ, case hoặc pattern đã giải bài tương tự
-2. Mỗi cái giải bước nào trong workflow, còn bỏ trống bước nào
+2. Mỗi cái giải bước nào trong quy trình, còn bỏ trống bước nào
 3. Rủi ro hoặc hạn chế đã biết
 Ghi link nguồn chính thức cho mọi claim quan trọng. Không chắc thì nói không chắc.
 ```
@@ -233,13 +235,13 @@ Ghi link nguồn chính thức cho mọi claim quan trọng. Không chắc thì 
 
 ---
 
-## CP5 — Workflow trước/sau + Problem Statement v0 (45') · *Define*
+## CP5 — Quy trình trước/sau + Problem Statement v0 (45') · *Define*
 
-### Workflow hiện tại (15')
+### Quy trình hiện tại (15')
 
 Chi tiết hơn bản cá nhân. Mỗi bước có actor, input, output, thời gian/tần suất, handoff (chuyển cho ai).
 
-### Workflow tương lai (15')
+### Quy trình tương lai (15')
 
 Đánh dấu rõ:
 
@@ -264,7 +266,7 @@ Có thể nhờ AI chuyển mô tả sang Mermaid, nhưng **kiểm từng bướ
 
 ### Problem Statement v0 (15') *(Lean UX — Jeff Gothelf; Google PAIR)*
 
-6 trường: Actor, Workflow, Bottleneck, Impact, Success Metric, Boundary.
+6 trường: Actor, Quy trình, Bottleneck, Impact, Success Metric, Boundary.
 
 **Problem Statement không chứa giải pháp.** Nó mô tả đủ rõ để nhiều giải pháp khác nhau có thể được thử.
 
@@ -276,7 +278,7 @@ Có thể nhờ AI chuyển mô tả sang Mermaid, nhưng **kiểm từng bướ
 | Target (muốn đạt) | dưới 30 phút/tuần |
 | Cách đo | PM tự ghi thời gian mỗi tuần trong 4 tuần pilot |
 
-Prompt phản biện PS:
+Prompt phản biện Problem Statement:
 
 ```text
 Đây là Problem Statement v0 của nhóm tôi:
@@ -292,13 +294,13 @@ Không viết lại thay tôi. Chỉ đặt câu hỏi và chỉ ra lỗ hổng.
 
 ---
 
-## CP6 — Mức can thiệp AI + PS v1 + quyết định (25') · *Define*
+## CP6 — Mức can thiệp AI + Problem Statement v1 + quyết định (25') · *Define*
 
 ### Ma trận độ mơ hồ × độ phức tạp
 
 | | Độ mơ hồ thấp | Độ mơ hồ cao |
 |---|---|---|
-| **Độ phức tạp thấp** | Rule hoặc workflow đơn giản thường đủ | Workflow có AI ở một bước thường đủ |
+| **Độ phức tạp thấp** | Rule hoặc Workflow đơn giản thường đủ | Workflow có AI ở một bước thường đủ |
 | **Độ phức tạp cao** | Workflow nhiều bước rõ ràng, chưa chắc cần Agent | Agent có thể phù hợp, nhưng cần boundary, người kiểm tra và phương án quay về rất rõ |
 
 - **Độ mơ hồ cao**: nhiều đầu ra khác nhau vẫn chấp nhận được (viết narrative). Thấp: có đúng/sai rõ (phân loại 5 nhóm cố định).
@@ -318,7 +320,7 @@ Nguyên tắc: **bắt đầu từ mức đơn giản nhất**, chỉ lên mức
 Hỏi kỹ:
 
 - Rule có giải được 70–80% trường hợp không?
-- Các bước có đủ rõ để viết sẵn thành workflow không?
+- Các bước có đủ rõ để viết sẵn thành Workflow không?
 - Có thật sự cần AI tự quyết bước tiếp theo không?
 - Nếu AI sai, ai phát hiện, ai sửa?
 

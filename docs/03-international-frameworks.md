@@ -11,7 +11,7 @@ Lab này không phát minh phương pháp mới. Mỗi kỹ thuật đều lấy
 | CP3 | Cây outcome → opportunity → solution | **Opportunity Solution Tree** | Teresa Torres, *Continuous Discovery Habits* | [Opportunity Solution Trees](https://www.producttalk.org/opportunity-solution-trees/) |
 | CP4 | Liệt kê và xếp hạng giả định | **Assumptions Mapping** | David Bland, *Testing Business Ideas* (cùng Alexander Osterwalder) | [Strategyzer: Assumptions mapping](https://www.strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter) |
 | CP4 | Phỏng vấn về hành vi đã xảy ra, không hỏi giả định | **The Mom Test** | Rob Fitzpatrick | [momtestbook.com](https://www.momtestbook.com/) |
-| CP4 | Ghi mỗi buổi phỏng vấn thành 1 trang | **Interview Snapshot** | Teresa Torres | [Product Talk](https://www.producttalk.org/opportunity-solution-trees/) |
+| CP4 | Ghi mỗi buổi phỏng vấn thành 1 trang | **Interview Snapshot** | Teresa Torres | [The Interview Snapshot](https://www.producttalk.org/interview-snapshot/) |
 | CP5 | Problem Statement không chứa giải pháp | **Lean UX Canvas — Business Problem Statement** | Jeff Gothelf, *Lean UX* | [Business Problem vs Opportunity Statements](https://jeffgothelf.com/blog/business-problem-statement-opportunity-statement/) |
 | CP5–CP6 | Augment hay automate; báo nhầm hay bỏ sót; tiêu chí thành công | **People + AI Guidebook — User Needs + Defining Success** | Google PAIR | [Chương User Needs](https://pair.withgoogle.com/chapter/user-needs/) |
 | CP6 | No AI / Rule / Workflow / Agent; chọn mức đơn giản nhất | **Building Effective Agents** | Anthropic | [Building effective agents](https://www.anthropic.com/research/building-effective-agents) |

@@ -2,9 +2,9 @@
 
 ## 1. Nguyên tắc làm bài
 
-1. **Problem first, not AI first.** Bắt đầu từ actor, workflow, bottleneck, metric. Không bắt đầu bằng "làm một chatbot".
+1. **Problem first, not AI first.** Bắt đầu từ actor, quy trình, bottleneck, metric. Không bắt đầu bằng "làm một chatbot".
 2. **Cá nhân scan rộng, nhóm hội tụ.** Mỗi người chuẩn bị nhiều candidate; nhóm chọn một candidate để đào sâu.
-3. **Vẽ workflow trước khi chọn AI.** Chưa chỉ ra được bước nào nghẽn thì chưa chọn Rule / Workflow / Agent.
+3. **Vẽ quy trình trước khi chọn AI.** Chưa chỉ ra được bước nào nghẽn thì chưa chọn Rule / Workflow / Agent.
 4. **Bằng chứng là hành vi đã xảy ra, không phải ý kiến.** "Tuần trước mình mất 90 phút" là bằng chứng. "Chắc mình sẽ dùng" thì không.
 5. **Không cần AI vẫn là kết luận tốt.** Điểm nằm ở chất lượng lập luận, không nằm ở độ "ngầu" của giải pháp.
 6. **Chọn mức đơn giản nhất đủ dùng.** Chỉ lên Workflow khi Rule không đủ, chỉ lên Agent khi Workflow không đủ.
@@ -18,13 +18,13 @@
 | CP1 Scan | Có, **sau khi** tự scan trước | Hỏi thêm góc nhìn, rồi tự chọn ý nào là pain thật |
 | CP2 Problem Card | Có | Dùng AI để phản biện. Không để AI bịa problem thay mình |
 | CP3 Pitch + challenge | **Không** | Tự trình bày và tự đặt câu hỏi phản biện |
-| CP4 Phỏng vấn | **Không** | Người thật hỏi người thật. Không dùng AI đóng vai người dùng thay cho phỏng vấn |
+| CP4 Phỏng vấn | **Không** | Người thật hỏi người thật. Không dùng AI đóng vai người dùng thay cho phỏng vấn. Được phỏng vấn bạn học ở nhóm khác nếu họ thật sự gặp vấn đề đó, không phỏng vấn thành viên nhóm mình |
 | CP4 Research | Có | Mọi claim quan trọng phải có link đã tự mở và kiểm. Số liệu không kiểm được nguồn thì không dùng |
-| CP5 Workflow | Có | Có thể nhờ AI chuyển mô tả sang Mermaid, nhưng phải tự kiểm từng bước |
+| CP5 Quy trình | Có | Có thể nhờ AI chuyển mô tả sang Mermaid, nhưng phải tự kiểm từng bước |
 | CP5–CP6 Problem Statement, quyết định | Có, chỉ để phản biện | Prompt kiểu "chỉ ra lỗ hổng, đừng viết lại thay tôi". Nhóm tự chốt |
 | CP7 Reflection | **Không** dùng để viết thay | Có thể nhờ AI gợi ý câu hỏi tự soi. Câu trả lời phải là trải nghiệm thật của bạn |
 
-**Phần bạn phải tự giải thích được** (sẽ được hỏi khi chấm): chuỗi problem → workflow → metric → boundary → mức can thiệp AI → quyết định, áp dụng cho bài của nhóm bạn.
+**Phần bạn phải tự giải thích được** (sẽ được hỏi khi chấm): chuỗi problem → quy trình → metric → boundary → mức can thiệp AI → quyết định, áp dụng cho bài của nhóm bạn.
 
 Mỗi lần dùng AI, ghi vào bảng "Dùng AI" trong báo cáo cá nhân: dùng để làm gì, AI giúp ở đâu, AI sai ở đâu, bạn đã sửa gì.
 
@@ -50,10 +50,11 @@ Mỗi lần dùng AI, ghi vào bảng "Dùng AI" trong báo cáo cá nhân: dùn
 
 ## 6. Nộp muộn và sửa bài
 
+*Key coach là coach phụ trách chính của lớp, người công bố deadline, gia hạn và kết quả chấm trên LMS.*
+
 - Deadline mặc định: lab sáng nộp trước **23h59 GMT+7** ngày lab; lab chiều/tối nộp trước **11h59 GMT+7** ngày hôm sau.
 - Key coach có thể gia hạn tối đa 48 giờ nếu có lý do chính đáng và được thông báo trên LMS.
-- Nộp sau deadline bị trừ điểm theo mức key coach công bố trên LMS.
-- Commit sau deadline không được chấm. Người chấm xem trạng thái repo tại commit cuối cùng trước deadline.
+- Người chấm xem trạng thái repo tại commit cuối cùng trước deadline (hoặc trước hạn gia hạn, nếu được gia hạn). Commit sau mốc đó không được chấm. Lab này không áp dụng hình thức "nộp muộn bị trừ điểm".
 
 ## 7. Lỗi kỹ thuật
 

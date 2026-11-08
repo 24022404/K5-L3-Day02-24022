@@ -56,7 +56,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
-| Candidate | Actor rõ | Workflow rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
+| Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | | | | | | | | | |
 | | | | | | | | | |
@@ -82,6 +82,10 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | 2 | | | | | |
 | 3 | | | | | |
 | 4 | | | | | |
+| 5 | | | | | |
+| 6 | | | | | |
+
+*Điền 4–6 giả định; xóa dòng thừa.*
 
 Giả định nhóm kiểm chứng trong buổi này:
 
@@ -110,7 +114,7 @@ Tổng hợp:
 
 ### 3.3. Research giải pháp đã có
 
-| Công cụ / case / pattern | Link | Giải bước nào trong workflow? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
+| Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
 | | | | | | |
 | | | | | | |
@@ -118,9 +122,9 @@ Tổng hợp:
 
 ---
 
-## 4. Workflow trước/sau (CP5)
+## 4. Quy trình trước/sau (CP5)
 
-### 4.1. Workflow hiện tại
+### 4.1. Quy trình hiện tại
 
 Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
@@ -138,7 +142,7 @@ Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
 **Bottleneck chính:**
 
-### 4.2. Workflow tương lai
+### 4.2. Quy trình tương lai
 
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
@@ -163,7 +167,7 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 | Trường | Nội dung |
 |---|---|
 | **Actor** | |
-| **Workflow** | |
+| **Quy trình** | |
 | **Bottleneck** | |
 | **Impact** | |
 | **Success Metric** (baseline → target, cách đo) | |
@@ -219,7 +223,7 @@ Vì sao:
 | Trường | Nội dung |
 |---|---|
 | **Actor** | |
-| **Workflow** | |
+| **Quy trình** | |
 | **Bottleneck** | |
 | **Impact** | |
 | **Success Metric** (baseline → target, cách đo) | |
@@ -248,7 +252,7 @@ Vì sao:
 
 ### 8.1. Bốn rủi ro
 
-| Rủi ro | Câu hỏi | Mức (Thấp / TB / Cao) | Lý do / bằng chứng |
+| Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
 | **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
 | **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
