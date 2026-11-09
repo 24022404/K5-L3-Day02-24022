@@ -154,7 +154,7 @@ Quy trình nháp hiện tại:
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+Trả lời bằng trải nghiệm của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). (Được vibecoding)
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
